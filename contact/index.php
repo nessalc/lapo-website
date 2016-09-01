@@ -27,7 +27,7 @@
 		var mapElement = document.getElementById('map');
 		var map = new google.maps.Map(mapElement, mapOptions);
 		var locations = [
-		['Lake Afton Public Observatory', 'We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.', '(316) 978-7827', 'hhenderson@lakeafton.com', 'lakeafton.com', 37.6221582, -97.6269578, '/layout/img/solid-pin-red.png']
+		['Lake Afton Public Observatory', 'We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.', '<span class="callcap_phone_number">(316) 559-2899</span>', 'hhenderson@lakeafton.com', 'lakeafton.com', 37.6221582, -97.6269578, '/layout/img/solid-pin-red.png']
 		];
 		for (i = 0; i < locations.length; i++) {
 			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -99,7 +99,8 @@
 							<strong>Address</strong><br>
 							<a href="https://www.google.com/maps/place/Lake+Afton+Public+Observatory/@37.6191311,-97.6298515,15z/data=!4m5!3m4!1s0x0:0xc58065545de2e731!8m2!3d37.6221582!4d-97.6269578" target="_blank">25000 W. 39th S.<br>
 								Goddard, KS 67052</a><br>
-								<a href="tel:3169787827">(316) 978-7827</a><br><br>
+								<span class="callcap_phone_number">(316) 559-2899</span>
+								<br><br>
 
 								<strong>Media Inquiries</strong> <br> <a href="mailto:marketing@lakeafton.com">marketing@lakeafton.com</a><br><br>
 
