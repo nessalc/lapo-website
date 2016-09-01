@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 
 	<!-- Basic Page Needs ========================================= -->
-	<meta name="description" content="<? echo $pageDescription ?>">
+	<meta name="description" content="<?=echo $pageDescription ?>">
 	<meta name="author" content="Lake Afton Public Observatory">
 	<meta property="og:title" content="Lake Afton Public Observatory">
 	<meta property="og:type" content="website">
@@ -17,7 +17,7 @@
 	<!--link rel="icon" href="/layout/img/favicon.ico" /-->
 
 	<!-- Website Title ========================================= -->
-	<title><? echo $pageTitle ?></title>
+	<title><?=echo $pageTitle ?></title>
 
 	<!-- Meta Information ========================================= -->
 	<!---meta prefix="og: http://ogp.me/ns#" property="og:type" content="" />
