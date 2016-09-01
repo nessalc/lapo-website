@@ -35,7 +35,7 @@
 				<h2 class="light-gray">The Future</h2>
 				<span class="dots"><i></i><i></i><i></i></span>
 				<h3 class="h1">Where we're going</h3>
-				<p>Thanks to members of Kansas Astronomical Observers, the observatory was saved from permanent closure and reopened on Sept. 2, 2016. It will continue to operate as a nonprofit supported by volunteers. In addition to letting visitors experience celestial bodies through the 16-inch Ritchey-Chrétien telescope, Lake Afton Public Observatory will feature exciting new exhibits and special events.</p>
+				<p>Thanks to members of the <a href="http://kaowichita.com">Kansas Astronomical Observers</a> and <a href="https://openwichita.com">Open Wichita</a>, the observatory was saved from permanent closure and reopened on Sept. 2, 2016. It will continue to operate as a nonprofit supported by volunteers. In addition to letting visitors experience celestial bodies through the 16-inch Ritchey-Chrétien telescope, Lake Afton Public Observatory will feature exciting new exhibits and special events.</p>
 			</div>
 		</div>
 	</div>
