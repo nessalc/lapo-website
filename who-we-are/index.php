@@ -1,0 +1,42 @@
+<?php include 'layout/header.php'; ?>
+
+<div class="banner"  style="background: url(/layout/img/wwa_header.jpg) center/cover">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-xs-center">
+				<h1>A passion <span class="nobr">for astronomy.</span></h1>
+				<p>Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="content">
+	<div class="container">
+		<div class="row row-eq-height">
+			<div class="col-md-6">
+				<div class="card">
+					<a href="http://openwichita.com"><img src="/layout/img/open_wichita.jpg" alt=""></a>
+					<h3>Open Wichita</h3>
+					<p>On the digital side, we're members of Open Wichita. Open Wichita is an initiative to bring the benefits of open data and civic hacking to Wichita. We believe our volunteers can bring a level of innovation, creativity, and technological know-how that the Observatory needs.</p>
+
+					<p>Learn more at <a href="http://openwichita.com">openwichita.com</a></p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					<a href="http://kaowichita.com"><img src="/layout/img/kao.jpg" alt=""></a>
+					<h3>Kansas Astronomical Observers</h3>
+
+					<p>The front-facing side of the effort has members of the Kansas Astronomical Observers meeting with the County Commissioners and Wichita State University. This group often uses the Observatory for meetings and shares their telescopes and their knowledge with Observatory visitors.</p>
+
+					<p>Learn more at <a href="http://kaowichita.com">kaowichita.com</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<?php include 'layout/footer.php'; ?>

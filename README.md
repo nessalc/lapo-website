@@ -10,3 +10,6 @@ We should update this readme with comprehensive and simple explanations to allow
 4. Any dynamic portions should be Asynchronous Javascript calling back to an API of some sort (possibly built in Rails).
 	- Hours and weather closings.
 5. CSS framework is up for debate. Bootstrap and Foundation are both good. Let's discuss here: https://github.com/openwichita/lake-afton-website/issues/1
+
+## Note about this branch
+This branch is currently using PHP just for concatenating the header and footer with the content pages. Eventually this content and styles should be merged into another branch with a local build process.
