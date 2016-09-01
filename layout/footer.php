@@ -14,7 +14,7 @@
 
 			<div class="subscribe">
 				<h1>Stay Updated</h1>
-				<form action="//lakeafton.us11.list-manage.com/subscribe/post?u=3a1cc6210ed1c2d4cd798d122&amp;id=2f0f0c5a86" name="mc-embedded-subscribe-form" target="_blank">
+				<form action="//lakeafton.us11.list-manage.com/subscribe/post?u=3a1cc6210ed1c2d4cd798d122&amp;id=2f0f0c5a86" method="post" name="mc-embedded-subscribe-form" target="_blank">
 					<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email" value="">
 					<input type="submit" class="btn" name="subscribe" value="Subscribe">
 

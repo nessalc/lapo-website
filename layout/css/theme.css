@@ -103,7 +103,7 @@ h3, .h3 {
 
 
 /*Input & Form Styles*/
-input[type="text"] {
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
 	width: 25em;
 	max-width: 100%;
 	padding: 0.5em 1.75em;
