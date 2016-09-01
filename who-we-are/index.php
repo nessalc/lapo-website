@@ -1,4 +1,4 @@
-<?php include '/layout/header.php'; ?>
+<?php include '../layout/header.php'; ?>
 
 <div class="banner"  style="background: url(/layout/img/wwa_header.jpg) center/cover">
 	<div class="container">
@@ -39,4 +39,4 @@
 </div>
 
 
-<?php include '/layout/footer.php'; ?>
+<?php include '../layout/footer.php'; ?>
