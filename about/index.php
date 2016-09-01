@@ -1,3 +1,7 @@
+<?php
+	$pageTitle = "About the Lake Afton Public Observatory";
+	$pageDescription = "";
+?>
 <?php include '../layout/header.php'; ?>
 
 <div class="banner"  style="background: url(/layout/img/about_header.jpg) center/cover">

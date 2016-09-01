@@ -1,3 +1,7 @@
+<?php
+	$pageTitle = "Contact Us - Lake Afton Public Observatory";
+	$pageDescription = "";
+?>
 <?php include '../layout/header.php'; ?>
 
 <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDRXVcPr4194G3d7cySZROYeej_qF3XxKA&extension=.js'></script>

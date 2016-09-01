@@ -1,17 +1,15 @@
 <!doctype html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="utf-8">
 
 	<!-- Basic Page Needs ========================================= -->
-	<meta name="description" content="">
+	<meta name="description" content="<? echo $pageDescription ?>">
 	<meta name="author" content="Lake Afton Public Observatory">
-	<!--meta property="og:title" content="">
+	<meta property="og:title" content="Lake Afton Public Observatory">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="">
-	<meta property="og:site_name" content="">
-	<meta property="og:description" content="">
-	<meta property="og:phone_number" content=""-->
+	<meta property="og:image" content="http://www.lakeafton.com/layout/img/LAPO_OpenGraph.jpg">
+	<meta property="og:description" content="Through our telescope, exhibits, and events, we aim to foster education and wonder about our solar system and beyond.">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=0.1">
 	<meta name="format-detection" content="telephone=yes">
 
@@ -19,7 +17,7 @@
 	<!--link rel="icon" href="/layout/img/favicon.ico" /-->
 
 	<!-- Website Title ========================================= -->
-	<title>Lake Afton Public Observatory</title>
+	<title><? echo $pageTitle ?></title>
 
 	<!-- Meta Information ========================================= -->
 	<!---meta prefix="og: http://ogp.me/ns#" property="og:type" content="" />

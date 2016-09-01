@@ -1,3 +1,7 @@
+<?php
+	$pageTitle = "Lake Afton Public Observatory";
+	$pageDescription = "";
+?>
 <?php include 'layout/header.php'; ?>
 
 <div class="banner"  style="background: url(/layout/img/header-background.jpg) center/cover">
@@ -23,7 +27,7 @@
 				<h2 class="light-gray">Who Are We</h2>
 				<span class="dots"><i></i><i></i><i></i></span>
 				<h3 class="h1">Lake Afton <span class="nobr">Public</span> Observatory</h3>
-				<p>We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.</p>
+				<p>We are a group of people who are passionate about astronomy. Through our telescope, exhibits, and events, we aim to foster education and wonder about our solar system and beyond.</p>
 			</div>
 		</div>
 	</div>
