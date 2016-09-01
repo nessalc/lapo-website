@@ -1,11 +1,11 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<html>
 <head>
+	<meta charset="utf-8">
 
 	<!-- Basic Page Needs ========================================= -->
-	<meta charset="utf-8">
 	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="author" content="Lake Afton Public Observatory">
 	<!--meta property="og:title" content="">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="">
@@ -13,7 +13,7 @@
 	<meta property="og:description" content="">
 	<meta property="og:phone_number" content=""-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=0.1">
-	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="telephone=yes">
 
 	<!-- Favicon ========================================= -->
 	<!--link rel="icon" href="/layout/img/favicon.ico" /-->

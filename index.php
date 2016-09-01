@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include '/layout/header.php'; ?>
 
 <div class="banner"  style="background: url(/layout/img/header-background.jpg) center/cover">
 	<div class="container">
@@ -73,4 +73,4 @@
 
 
 
-<?php include 'footer.php'; ?>
+<?php include '/layout/footer.php'; ?>
