@@ -27,7 +27,7 @@
 		var mapElement = document.getElementById('map');
 		var map = new google.maps.Map(mapElement, mapOptions);
 		var locations = [
-		['Lake Afton Public Observatory', 'We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.', '<span class="callcap_phone_number">(316) 559-2899</span>', 'hhenderson@lakeafton.com', 'lakeafton.com', 37.6221582, -97.6269578, '/layout/img/solid-pin-red.png']
+		['Lake Afton Public Observatory', 'We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.', '', 'hhenderson@lakeafton.com', 'lakeafton.com', 37.6221582, -97.6269578, '/layout/img/solid-pin-red.png']
 		];
 		for (i = 0; i < locations.length; i++) {
 			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
