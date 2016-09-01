@@ -79,7 +79,7 @@
 			<a href="https://twitter.com/lakeafton"><i class="fa fa-twitter"></i></a>
 			<a href="https://www.facebook.com/lakeafton"><i class="fa fa-facebook"></i></a>
 			<a href="https://www.instagram.com/lakeafton"><i class="fa fa-instagram"></i></a>
-			<a href="#" class="donate">Donate</a>
+			<a href="http://eepurl.com/cdN8hf" class="donate">Donate</a>
 		</div>
 	</header>
 
@@ -97,7 +97,7 @@
 				<li><a href="/about">About</a></li>
 				<li><a href="/who-we-are">Who We Are</a></li>
 				<li><a href="/contact">Contact</a></li>
-				<li><a href="" class="donate">Donate</a></li>
+				<li><a href="http://eepurl.com/cdN8hf" class="donate">Donate</a></li>
 			</ul>
 
 
