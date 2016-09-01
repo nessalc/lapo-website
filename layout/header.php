@@ -1,5 +1,5 @@
 <!doctype html>
-<html prefix="og: http://ogp.me/ns#">
+<html prefix="og: http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8">
 
@@ -7,6 +7,7 @@
 	<meta name="description" content="<?=$pageDescription?>">
 	<meta name="author" content="Lake Afton Public Observatory">
 	<meta property="og:title" content="Lake Afton Public Observatory">
+	<meta property="og:url" content="http://www.lakeafton.com/">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="http://www.lakeafton.com/layout/img/LAPO_OpenGraph.jpg">
 	<meta property="og:description" content="Through our telescope, exhibits, and events, we aim to foster education and wonder about our solar system and beyond.">
