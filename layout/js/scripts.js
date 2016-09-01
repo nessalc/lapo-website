@@ -31,7 +31,7 @@ function newpage() {window.location = newLocation;}
 // Smooth Scroll on anchor click
 $('a.internal-link[href^="#"]').click(function() {
 	console.log("Smooth Scroll Triggered");
-	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 		|| location.hostname == this.hostname) {
 
 		var target = $(this.hash);
@@ -49,9 +49,7 @@ $('a.internal-link[href^="#"]').click(function() {
 
 // Adds active class to menu for current page (Can be used in a root directory , but will need to lose the '././ +' bit)
 $('a').each(function () {
-	var pathArray = window.location.pathname.split( '/' );
-	var secondLevelLocation = pathArray[2];
-	if ($(this).attr('href') == secondLevelLocation) {
+	if ($(this).attr('href') == window.location.pathname) {
 		$(this).addClass('current-page');
 	}
 });
@@ -79,9 +77,9 @@ $window.scroll(function() {
     	$('.fadein').each( function(i){
     		var bottom_of_object = $(this).offset().top + $(this).outerHeight()/15;
     		var bottom_of_window = $(window).scrollTop() + $(window).height();
-    		if( bottom_of_window > bottom_of_object ){  
-    			$(this).css({'opacity':'1', 'transform': 'translateY(' + 0 + 'em)'});        
-    		}     
+    		if( bottom_of_window > bottom_of_object ){
+    			$(this).css({'opacity':'1', 'transform': 'translateY(' + 0 + 'em)'});
+    		}
     	});
     });
 
@@ -106,16 +104,3 @@ $window.scroll(function() {
     // });
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-

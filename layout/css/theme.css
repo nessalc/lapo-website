@@ -209,7 +209,7 @@ input[type="submit"]:hover {
 		color: rgba(107,75,100,1);
 		border-bottom: 2px solid rgba(224,60,49,.1);
 	}
-	header .navigation li.current-page a {
+	header .navigation li .current-page {
 		border-bottom: 2px solid rgba(224,60,49,1);
 	}
 
@@ -594,7 +594,7 @@ footer .navigation li a {
 footer .navigation li:hover a {
 	border-bottom: 2px solid rgba(255,255,255,.25);
 }
-footer .navigation li.current-page a {
+footer .navigation li .current-page {
 	border-bottom: 2px solid rgba(224,60,49,1);
 }
 

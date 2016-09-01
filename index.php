@@ -6,7 +6,7 @@
 			<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-xs-center">
 				<h1>Get closer <span class="nobr">to the stars.</span></h1>
 				<p>Come look at the night sky through our lens. Experience a wondrous view. A unique experience awaits you at Lake Afton Observatory.</p>
-				<a href="/about" class="btn">Learn More</a>
+				<a href="/about/" class="btn">Learn More</a>
 			</div>
 		</div>
 	</div>
@@ -34,12 +34,12 @@
 	<div class="link">
 		<div class="overlay"></div>
 		<h2 class="h1">About</h2>
-		<a href="/about" class="btn">Learn More</a>
+		<a href="/about/" class="btn">Learn More</a>
 	</div>
 	<div class="link">
 		<div class="overlay"></div>
 		<h2 class="h1">Who We Are</h2>
-		<a href="/who-we-are" class="btn">Learn More</a>
+		<a href="/who-we-are/" class="btn">Learn More</a>
 	</div>
 </div>
 

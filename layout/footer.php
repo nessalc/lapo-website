@@ -5,9 +5,9 @@
 		<footer>
 
 			<ul class="navigation hidden-sm-down">
-				<li><a href="/about">About</a></li>
-				<li><a href="/who-we-are">Who We Are</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="/about/">About</a></li>
+				<li><a href="/who-we-are/">Who We Are</a></li>
+				<li><a href="/contact/">Contact</a></li>
 			</ul>
 
 

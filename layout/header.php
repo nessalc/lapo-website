@@ -70,9 +70,9 @@
 			<img src="/layout/img/logo-lapo-sm.svg" alt="">
 		</a>
 		<ul class="navigation">
-			<li><a href="/about">About</a></li>
-			<li><a href="/who-we-are">Who We Are</a></li>
-			<li><a href="/contact">Contact</a></li>
+			<li><a href="/about/">About</a></li>
+			<li><a href="/who-we-are/">Who We Are</a></li>
+			<li><a href="/contact/">Contact</a></li>
 		</ul>
 
 		<div class="social">
@@ -94,9 +94,9 @@
 		<div class="menu">
 			<img src="/layout/img/logo-lapo.svg" alt="">
 			<ul>
-				<li><a href="/about">About</a></li>
-				<li><a href="/who-we-are">Who We Are</a></li>
-				<li><a href="/contact">Contact</a></li>
+				<li><a href="/about/">About</a></li>
+				<li><a href="/who-we-are/">Who We Are</a></li>
+				<li><a href="/contact/">Contact</a></li>
 				<li><a href="http://eepurl.com/cdN8hf" class="donate">Donate</a></li>
 			</ul>
 
