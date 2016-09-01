@@ -6,7 +6,7 @@
 			<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-xs-center">
 				<h1>Get closer <span class="nobr">to the stars.</span></h1>
 				<p>Come look at the night sky through our lens. Experience a wondrous view. A unique experience awaits you at Lake Afton Observatory.</p>
-				<a href="about.php" class="btn">Learn More</a>
+				<a href="/about" class="btn">Learn More</a>
 			</div>
 		</div>
 	</div>
@@ -22,7 +22,7 @@
 			<div class="col-md-8 offset-md-2 text-xs-center">
 				<h2 class="light-gray">Who Are We</h2>
 				<span class="dots"><i></i><i></i><i></i></span>
-				<h1>Lake Afton <span class="nobr">Public</span> Observatory</h1>
+				<h3 class="h1">Lake Afton <span class="nobr">Public</span> Observatory</h3>
 				<p>We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.</p>
 			</div>
 		</div>
@@ -33,13 +33,13 @@
 <div class="quick-links">
 	<div class="link">
 		<div class="overlay"></div>
-		<h1>About</h1>
-		<a href="about.php" class="btn">Learn More</a>
+		<h2 class="h1">About</h2>
+		<a href="/about" class="btn">Learn More</a>
 	</div>
 	<div class="link">
 		<div class="overlay"></div>
-		<h1>Who We Are</h1>
-		<a href="who-we-are.php" class="btn">Learn More</a></div>
+		<h2 class="h1">Who We Are</h2>
+		<a href="/who-we-are" class="btn">Learn More</a>
 	</div>
 </div>
 
@@ -50,7 +50,7 @@
 			<div class="col-md-8 offset-md-2 text-xs-center">
 				<h2 class="light-gray">Stay Connected</h2>
 				<span class="dots"><i></i><i></i><i></i></span>
-				<h1>Keep your eyes <span class="nobr">on the sky</span></h1>
+				<h2 class="h1">Keep your eyes <span class="nobr">on the sky</span></h2>
 				<p>Here’s what we’ve been up to lately. Come see for yourself or follow us on Instagram.</p>
 			</div>
 

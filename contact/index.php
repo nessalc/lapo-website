@@ -111,7 +111,7 @@
 							</p>
 						</div>
 						<div class="col-md-6">
-							<h1>Hours</h1>
+							<h2 class="h1">Hours</h2>
 							<p>
 								<strong>Friday</strong><br>
 								8pm-10pm <br>

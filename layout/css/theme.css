@@ -80,19 +80,19 @@ a {transition: ease all .25s; text-decoration: none !important;}
 }
 
 /*Font Styles*/
-h1, h2, h3, h4 {font-family: "industry-inc-base", sans-serif;}
-h1 {
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {font-family: "industry-inc-base", sans-serif;}
+h1, .h1 {
 	font-size: 2.25em;
 	line-height: 1;
 	margin: 0 0 0.2em;
 }
-h2 {
+h2, .h2 {
 	font-size: .875em;
 	line-height: 1;
 	margin: 0 0 .25em;
 	letter-spacing: 3px;
 }
-h3 {
+h3, .h3 {
 	font-size: 1.5em;
 	line-height: 1;
 	margin: 0 0 0.2em;
@@ -430,7 +430,7 @@ input[type="submit"]:hover {
 	padding: 15em 0;
 	color: rgba(255,255,255,1);
 }
-.banner h1 {
+.banner h1, .banner .h1 {
 	font-size: 3em;
 }
 .banner p {
@@ -451,7 +451,7 @@ input[type="submit"]:hover {
 	float:left; width: 100%;
 	padding: 8em 0;
 }
-.content h1 {
+.content h1, .content .h1 {
 	color: rgba(56,56,56,1);
 }
 .dots {
@@ -509,7 +509,7 @@ input[type="submit"]:hover {
 .quick-links .link:nth-child(1) { background: url(/layout/img/about.jpg) no-repeat center/cover; }
 .quick-links .link:nth-child(2) { background: url(/layout/img/who_we_are.jpg) no-repeat center/cover; }
 
-.quick-links .link h1 {
+.quick-links .link h1, .quick-links .link .h1 {
 	transition: .25s ease all;
 	transform: translateY(1em);
 }
@@ -518,7 +518,8 @@ input[type="submit"]:hover {
 	opacity: 0;
 }
 .quick-links .link:hover .btn,
-.quick-links .link:hover h1 {
+.quick-links .link:hover h1,
+.quick-links .link:hover .h1 {
 	transform: translateY(0);
 	opacity: 1;
 }
@@ -643,19 +644,19 @@ footer .copyright {
 
 
 @media screen and (max-width: 992px) {
-	h1 {
+	h1, .h1 {
 		font-size: 2em;
 	}
-	h2 {
+	h2, .h2 {
 		font-size: .75em;
 	}
-	h3 {
+	h3, .h3 {
 		font-size: 1.25em;
 	}
 	.banner {
 		padding: 10em 0;
 	}
-	.banner h1 {
+	.banner h1, .banner .h1 {
 		font-size: 2.25em;
 	}
 	.banner p {
