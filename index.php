@@ -17,7 +17,7 @@
 </div>
 
 <div class="viewing">
-	<span class="light-gray">Grand Opening:</span> <span class="nobr">Friday September 2, 2016 at 8pm</span>
+	<span class="light-gray">Open:</span> <span class="nobr">Friday and Saturday at 8pm</span>
 </div>
 
 <div class="content">
