@@ -20,7 +20,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-12">
 				<div class="thumbnail">
 					<p>
-						<img src="https://avatars0.githubusercontent.com/u/1633850?v=3&s=466" alt="Michael Neth"
+						<img src="https://avatars0.githubusercontent.com/u/1633850?v=3&amp;s=466" alt="Michael Neth"
 							 class="img-responsive img-thumbnail" />
 					</p>
 					<caption>
