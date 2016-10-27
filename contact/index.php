@@ -119,10 +119,10 @@
 							<h2 class="h1">Hours</h2>
 							<p>
 								<strong>Friday</strong><br>
-								8pm-10pm <br>
+								730pm-10pm <br>
 								<br>
 								<strong>Saturday</strong><br>
-								8pm-10pm
+								730pm-10pm
 							</p>
 						</div>
 					</div>
