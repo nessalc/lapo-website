@@ -1,8 +1,7 @@
-<?php
-	$pageTitle = "About the Lake Afton Public Observatory";
-	$pageDescription = "";
-?>
-<?php include '../layout/header.php'; ?>
+<%- include('../layout/_header', {
+	pageTitle: 'About the Lake Afton Public Observatory',
+	pageDescription: ''
+}); %>
 
 <div class="banner"  style="background: url(/layout/img/about_header.jpg) center/cover">
 <div class="container">
@@ -45,5 +44,4 @@
 	</div>
 </div>
 
-
-<?php include '../layout/footer.php'; ?>
+<%- include('../layout/_footer'); %>

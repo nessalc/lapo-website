@@ -1,8 +1,7 @@
-<?php
-	$pageTitle = "Contact Us - Lake Afton Public Observatory";
-	$pageDescription = "";
-?>
-<?php include '../layout/header.php'; ?>
+<%- include('../layout/_header', {
+	pageTitle: 'Contact Us - Lake Afton Public Observatory',
+	pageDescription: ''
+}); %>
 
 <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDRXVcPr4194G3d7cySZROYeej_qF3XxKA&extension=.js'></script>
 
@@ -140,4 +139,4 @@
 	</div>
 
 
-	<?php include '../layout/footer.php'; ?>
+	<%- include('../layout/_footer'); %>
