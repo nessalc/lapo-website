@@ -1,18 +1,17 @@
-<?php
-	$pageTitle = "Credits - Lake Afton Public Observatory";
-	$pageDescription = "";
-?>
-<?php include '../layout/header.php'; ?>
+<%- include('../layout/_header', {
+	pageTitle: 'Credits - Lake Afton Public Observatory',
+	pageDescription: ''
+}); %>
 
 <div class="banner" style="background: url(/layout/img/credits_header.jpg) center/cover">
-<div class="container">
-	<div class="row">
-		<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-xs-center">
-			<h1>Credits</h1>
-			<p>Say hello to our contributors</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-xs-center">
+				<h1>Credits</h1>
+				<p>Say hello to our contributors</p>
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 <div class="content">
 	<div class="container">
@@ -45,4 +44,4 @@
 		</div>
 	</div>
 
-	<?php include '../layout/footer.php'; ?>
+<%- include('../layout/_footer'); %>
