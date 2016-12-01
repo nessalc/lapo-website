@@ -1,15 +1,27 @@
 # Lake Afton Public Observatory website
 Website for the Lake Afton Public Observatory
 
-## Technology
-We should update this readme with comprehensive and simple explanations to allow anyone to contribute. For now the only information is:
+## Working with the source code
+The source files are written in [EJS](http://ejs.co/) and we are using [Harp.js](https://harpjs.com/) to build those files.
+All the sources are inside the `_src` directory. When you run `harp compile _src .` the contents of the `_src` directory will be compiled and copied to the root directory of the project.
+Is recommended to put all the files inside the `_src` directory, since the files in the root directory will be replaced each time the files are compiled.
 
-1. Hosted on Digital Ocean with a single droplet: 512 MB Memory / 20 GB Disk / NYC3
-2. Currently the droplet is running Ubuntu on 14.04 with Ghost 0.6.4
-3. The majority of the website is ideally static built with a static site generator.
-4. Any dynamic portions should be Asynchronous Javascript calling back to an API of some sort (possibly built in Rails).
-	- Hours and weather closings.
-5. CSS framework is up for debate. Bootstrap and Foundation are both good. Let's discuss here: https://github.com/openwichita/lake-afton-website/issues/1
+Before installing Harp make sure you have [NodeJS](https://nodejs.org) installed.
 
-## Note about this branch
-This branch is currently using PHP just for concatenating the header and footer with the content pages. Eventually this content and styles should be merged into another branch with a local build process.
+To install Harp, run the following command:
+
+```
+sudo npm install -g harp
+```
+
+You can start a local web server for development by running the following command:
+
+```
+harp server _src
+```
+
+Run the following command to build the source files (note the dot at the end):
+
+```
+harp compile _src .
+```
