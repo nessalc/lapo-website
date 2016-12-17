@@ -454,9 +454,16 @@ input[type="submit"]:hover {
 .content h1, .content .h1 {
 	color: rgba(56,56,56,1);
 }
+.content ul {
+	padding:0;
+}
+.content ul li {
+	list-style-type: none;
+}
 .dots {
 	display:inline-block;
 	margin: 0 0 1em;
+	padding:35px 0;
 }
 .dots i {
 	content: "";
@@ -641,8 +648,11 @@ footer .copyright {
 
 
 
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 1150px) {
+	header .sm-logo img {
+		height: 65%;
+		width: auto;
+	}
 }
 
 
