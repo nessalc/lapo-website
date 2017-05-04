@@ -1,14 +1,16 @@
 $(document).ready(function(){
 
-// Use pace to fade in page content after load and fade out before leaving pages.
-Pace.on('start', function() {$('.module').css({'margin-top':'2em'});});
-Pace.on('done', function() {
+function siteLoaded () {
 	console.log("Site Loaded!");
 	$('.pace-progress').addClass('pace-done');
 	$('.module').css({'margin-top':'0'});
-	$('#pace-cover').fadeOut(250, function(){
-	});
-});
+	$('#pace-cover').fadeOut(250);
+}
+
+// Use pace to fade in page content after load and fade out before leaving pages.
+Pace.on('start', function() {$('.module').css({'margin-top':'2em'});});
+Pace.on('done', siteLoaded);
+$(window).on('pageshow', siteLoaded);
 
 $('a').each(function() {
 	var anchor = new RegExp('/' + window.location.host + '/');
