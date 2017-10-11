@@ -1,0 +1,46 @@
+<%- include('../layout/_header', {
+	pageTitle: 'About the Lake Afton Public Observatory',
+	pageDescription: ''
+}); %>
+
+<div class="content" style="padding-top:15px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id='loading' style="display:none;">loading...</div>
+				<div id='calendar'></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+	$(document).ready(function() {
+
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,listYear'
+			},
+			displayEventTime: false, // don't show the time column in list view
+			googleCalendarApiKey: 'AIzaSyC0yC7gp8sdG8pDl0H2a18Ba2tFYYcJ4B4',
+			//events: 'phf9m2398pr9pfoejnv06rnu24@group.calendar.google.com',
+			events: 'lakeafton.com_qojc7kseu2jv9j7jji2gqgqud4@group.calendar.google.com',
+			eventClick: function(event) {
+				// opens events in a popup window
+				window.open(event.url, 'gcalevent', 'width=700,height=600');
+				return false;
+			},
+			loading: function(bool) {
+				$('#loading').toggle(bool);
+			}
+
+		});
+
+	});
+
+</script>
+
+<%- include('../layout/_footer'); %>
