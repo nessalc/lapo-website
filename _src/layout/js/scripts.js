@@ -103,4 +103,17 @@ $window.scroll(function() {
     // 	}
     // });
 
+		// Highlight hours based on current date
+		if($('.js-list-hours').length > 0) {
+			var listElement = $('.js-list-hours li');
+			var curDate = new Date();
+			var curMonth = curDate.getMonth();
+			var i;
+			for(i = 0; i < listElement.length; i++){
+				if($.inArray(curMonth, $(listElement[i]).data('months')) > -1){
+					$(listElement[i]).wrap('<strong>');
+				}
+			}
+		}
+
 });
