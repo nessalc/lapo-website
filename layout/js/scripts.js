@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 function siteLoaded () {
-	console.log("Site Loaded!");
 	$('.pace-progress').addClass('pace-done');
 	$('.module').css({'margin-top':'0'});
 	$('#pace-cover').fadeOut(250);
@@ -32,7 +31,6 @@ function newpage() {window.location = newLocation;}
 
 // Smooth Scroll on anchor click
 $('a.internal-link[href^="#"]').click(function() {
-	console.log("Smooth Scroll Triggered");
 	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 		|| location.hostname == this.hostname) {
 
