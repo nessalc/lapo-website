@@ -59,6 +59,9 @@ hr {
 
 a {transition: ease all .25s; text-decoration: none !important;}
 
+.show {
+	display:block !important;
+}
 
 .btn {
 	display:inline-block;
