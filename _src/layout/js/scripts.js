@@ -111,7 +111,7 @@ $window.scroll(function() {
 			var i;
 			for(i = 0; i < listElement.length; i++){
 				if($.inArray(curMonth, $(listElement[i]).data('months')) > -1){
-					$(listElement[i]).wrap('<strong>');
+					$(listElement[i]).wrap('<strong>').addClass('show');
 				}
 			}
 		}
