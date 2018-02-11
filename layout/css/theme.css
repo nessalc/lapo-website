@@ -731,3 +731,11 @@ footer .copyright {
 	height: .125em;
 }
 .pace-done {height:0 !important;transition: ease all .5s;}
+
+/* Override Calendar Styles */
+
+.fc button {
+	background-image:none;
+	text-shadow:none;
+	color:rgba(224,60,49,1);
+}
