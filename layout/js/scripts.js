@@ -1,14 +1,15 @@
 $(document).ready(function(){
 
-// Use pace to fade in page content after load and fade out before leaving pages.
-Pace.on('start', function() {$('.module').css({'margin-top':'2em'});});
-Pace.on('done', function() {
-	console.log("Site Loaded!");
+function siteLoaded () {
 	$('.pace-progress').addClass('pace-done');
 	$('.module').css({'margin-top':'0'});
-	$('#pace-cover').fadeOut(250, function(){
-	});
-});
+	$('#pace-cover').fadeOut(250);
+}
+
+// Use pace to fade in page content after load and fade out before leaving pages.
+Pace.on('start', function() {$('.module').css({'margin-top':'2em'});});
+Pace.on('done', siteLoaded);
+$(window).on('pageshow', siteLoaded);
 
 $('a').each(function() {
 	var anchor = new RegExp('/' + window.location.host + '/');
@@ -30,7 +31,6 @@ function newpage() {window.location = newLocation;}
 
 // Smooth Scroll on anchor click
 $('a.internal-link[href^="#"]').click(function() {
-	console.log("Smooth Scroll Triggered");
 	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 		|| location.hostname == this.hostname) {
 
@@ -102,5 +102,18 @@ $window.scroll(function() {
     // 		$('.mobile').css({'top':'-3.5em'});
     // 	}
     // });
+
+		// Highlight hours based on current date
+		if($('.js-list-hours').length > 0) {
+			var listElement = $('.js-list-hours li');
+			var curDate = new Date();
+			var curMonth = curDate.getMonth();
+			var i;
+			for(i = 0; i < listElement.length; i++){
+				if($.inArray(curMonth, $(listElement[i]).data('months')) > -1){
+					$(listElement[i]).wrap('<strong>').addClass('show');
+				}
+			}
+		}
 
 });
