@@ -4,8 +4,9 @@
 		ASTRONOMYAPI_SECRET_KEY:'14fe9eedb4740d09a37812227096ed07a0b6ff27'
 	};
 
-	let tokenURL = 'http://api.astronomyapi.org/auth?app_id=' + config.ASTRONOMYAPI_APPLICATION_ID + '&app_secret=' + config.ASTRONOMYAPI_SECRET_KEY;
-	let planetsURL = 'http://api.astronomyapi.org/positions';
+	let corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+	let tokenURL = corsAnywhere + 'http://api.astronomyapi.org/auth?app_id=' + config.ASTRONOMYAPI_APPLICATION_ID + '&app_secret=' + config.ASTRONOMYAPI_SECRET_KEY;
+	let planetsURL = corsAnywhere + 'http://api.astronomyapi.org/positions';
 
 	let lapoLocation = {
 		lat:'37.622156',
