@@ -1,0 +1,55 @@
+<script>
+	let config = {
+		ASTRONOMYAPI_APPLICATION_ID:'2cd42ecb-1678-47ea-8a75-7e4b10ab2ae8',
+		ASTRONOMYAPI_SECRET_KEY:'14fe9eedb4740d09a37812227096ed07a0b6ff27'
+	};
+
+	let tokenURL = 'http://api.astronomyapi.org/auth?app_id=' + config.ASTRONOMYAPI_APPLICATION_ID + '&app_secret=' + config.ASTRONOMYAPI_SECRET_KEY;
+	let planetsURL = 'http://api.astronomyapi.org/positions';
+
+	let lapoLocation = {
+		lat:'37.622156',
+		lon:'-97.626937'
+	};
+
+	var currentTime = new Date()
+	var month = currentTime.getMonth() + 1
+	var day = currentTime.getDate()
+	var year = currentTime.getFullYear()
+
+	let dateRange = {
+		from_year:year,
+		from_month:month,
+		from_day:day,
+		to_year:year,
+		to_month:month,
+		to_day:day
+	};
+
+	let headers = {
+		'Authorization':''
+	};
+
+	let token = fetch(tokenURL)
+	.then(response => {
+		response.json()
+		.then(tokenResponse => {
+			headers.Authorization = 'Bearer ' + tokenResponse.data.token;
+
+			fetch(planetsURL,{headers:headers,lat:lapoLocation.lat,lon:lapoLocation.lon,from_year:dateRange.from_year,from_month:dateRange.from_month,from_day:dateRange.from_day,to_year:dateRange.to_year,to_month:dateRange.to_month,to_day:dateRange.to_day})
+			.then(response => {
+				response.json()
+				.then(planetsResponse => {
+
+					console.log(planetsResponse);
+
+				});
+			});
+
+		});
+	});
+
+	let response = {};
+
+	document.write(JSON.stringify(response));
+</script>
