@@ -9,7 +9,8 @@
 			<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-xs-center">
 				<h1>Get closer <span class="nobr">to the stars.</span></h1>
 				<p>Come look at the night sky through our lens. Experience a wondrous view. A unique experience awaits you at Lake Afton Observatory.</p>
-				<a href="/news/" class="btn">News: Labor Day Weekend Hours</a>
+				<!-- <a href="/news/" class="btn">News: Labor Day Weekend Hours</a> -->
+				<div class="weekendSchedule" style="margin-top:100px;"></div>
 			</div>
 		</div>
 	</div>
@@ -95,6 +96,28 @@
 </div>
 
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<script>
 
+	$(document).ready(function() {
+
+		(function () {
+
+			$.ajax({
+				url:'http://api.lakeafton.com/schedule',
+				type:'GET'
+			}).done(function(result){
+				var weekendScheduleHTML = '<h2>Currently Viewing:</h2><p>' + result.schedule + '</p>';
+				$('.weekendSchedule').html(weekendScheduleHTML);
+			}).error(function(error){
+				console.error(error);
+			})
+
+			return scheduleText;
+
+		}());
+
+	});
+
+</script>
 
 <%- include('layout/_footer'); %>

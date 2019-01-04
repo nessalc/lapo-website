@@ -430,7 +430,7 @@ input[type="submit"]:hover {
 /*Banner Styles*/
 .banner {
 	float:left; width: 100%;
-	padding: 15em 0;
+	padding: 10em 0;
 	color: rgba(255,255,255,1);
 }
 .banner h1, .banner .h1 {
