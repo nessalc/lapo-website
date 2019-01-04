@@ -103,7 +103,7 @@
 		(function () {
 
 			$.ajax({
-				url:'http://api.lakeafton.com/schedule',
+				url:'https://api.lakeafton.com/schedule',
 				type:'GET'
 			}).done(function(result){
 				var weekendScheduleHTML = '<h2>Currently Viewing:</h2><p>' + result.schedule + '</p>';
