@@ -7,6 +7,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
+				<span style="text-align:center;">
+					<h2>Current Timezone</h2>
+					<center>
+						<select id='timezone-selector'>
+							<option value='America/Los_Angeles'>Pacific</option>
+							<option value='America/Denver'>Mountain</option>
+							<option value='America/Chicago' selected>Central</option>
+							<option value='America/New_York'>Eastern</option>
+						</select>
+					</center>
+				</span>
+
+				<hr />
+
 				<div id='loading' style="display:none;">loading...</div>
 				<div id='calendar'></div>
 			</div>
@@ -37,6 +51,16 @@
 				$('#loading').toggle(bool);
 			}
 
+		});
+
+		// default to chicago time
+		$('#calendar').fullCalendar('option', 'timezone', 'America/Chicago');
+
+
+
+		// when the timezone selector changes, dynamically change the calendar option
+		$('#timezone-selector').on('change', function() {
+			$('#calendar').fullCalendar('option', 'timezone', this.value || false);
 		});
 
 	});
