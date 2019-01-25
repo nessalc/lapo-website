@@ -183,7 +183,7 @@ input[type="submit"]:hover {
 	}
 	header .logo img,
 	header .sm-logo img {
-		height: 100%;
+		height: 85%;
 		width: auto;
 	}
 
