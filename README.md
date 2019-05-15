@@ -17,7 +17,7 @@ npm start
 Run the following command to build the source files (note the dot at the end):
 
 ```
-harp compile _src .
+npm compile
 ```
 
 ## Images, scripts, and other includes
