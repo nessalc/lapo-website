@@ -1,0 +1,11 @@
+{
+	"name": "lake-afton-website",
+	"version": "2.0.0",
+	"scripts": {
+		"start": "harp server _src",
+		"compile": "harp compile _src ."
+	},
+	"dependencies": {
+		"harp": "^0.30.0"
+	}
+}
