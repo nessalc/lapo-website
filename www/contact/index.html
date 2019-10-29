@@ -1,0 +1,431 @@
+<!doctype html>
+<html prefix="og: http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+	<meta charset="utf-8">
+
+	<!-- Basic Page Needs ========================================= -->
+	<meta name="description" content="">
+	<meta name="author" content="Lake Afton Public Observatory">
+	<meta property="og:title" content="Lake Afton Public Observatory">
+	<meta property="og:url" content="https://www.lakeafton.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://www.lakeafton.com/layout/img/LAPO_OpenGraph.jpg">
+	<meta property="og:description" content="Through our telescope, exhibits, and events, we aim to foster education and wonder about our solar system and beyond.">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=0.1">
+	<meta name="format-detection" content="telephone=yes">
+
+	<!-- Favicon ========================================= -->
+	<!--link rel="icon" href="/layout/img/favicon.ico" /-->
+
+	<!-- Website Title ========================================= -->
+	<title>Contact Us - Lake Afton Public Observatory</title>
+
+	<!-- Meta Information ========================================= -->
+	<!---meta prefix="og: http://ogp.me/ns#" property="og:type" content="" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:title" content="" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:url" content="" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="" />
+	<meta name="twitter:card" content="summary" /-->
+
+	<!-- Dependancies ========================================= -->
+	<link rel="stylesheet" href="/layout/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/layout/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/layout/css/fullcalendar.css">
+	<link rel="stylesheet" href="/layout/css/fullcalendar.print.css" media="print">
+	<link rel="stylesheet" href="/layout/css/theme.css">
+
+
+	<script src="/layout/js/pace.js"></script>
+	<script src="/layout/js/jquery.min.js"></script>
+	<script src="/layout/js/bootstrap.min.js"></script>
+	<script src="/layout/js/prefixfree.min.js"></script>
+	<script src="/layout/js/instafeed.min.js"></script>
+	<script src="/layout/js/scripts.js"></script>
+	<script src="/layout/js/moment.min.js"></script>
+	<script src="/layout/js/fullcalendar.min.js"></script>
+	<script src="/layout/js/gcal.min.js"></script>
+
+	<!-- Fonts ========================================= -->
+	<script src="https://use.typekit.net/fuu8esm.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+	<!-- Fade in on load (DOES NOT SHOW WITHOUT JAVASCRIPT) ========================================= -->
+	<div id="pace-cover" style="display: none"></div>
+	<script>
+		document.getElementById('pace-cover').style.display = 'block';
+	</script>
+
+	<!-- Desktop Header ========================================= -->
+	<header class="desktop hidden-md-down">
+		<a href="/" class="logo">
+			<img src="/layout/img/logo-lapo.svg" alt="">
+		</a>
+		<a href="/" class="sm-logo">
+			<img src="/layout/img/logo-lapo-sm.svg" alt="">
+		</a>
+		<ul class="navigation">
+			<li><a href="/about/">About</a></li>
+			<!-- <li><a href="/who-we-are/">Who We Are</a></li> -->
+			<li><a href="/contact/">Contact</a></li>
+			<li><a href="/resources/">Resources</a></li>
+			<li><a href="/calendar/">Calendar</a></li>
+			<li><a href="//blog.lakeafton.com">Blog</a></li>
+		</ul>
+
+		<div class="social">
+				<!--
+			<a href="https://twitter.com/lakeafton"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.facebook.com/lakeafton"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.instagram.com/lakeafton"><i class="fa fa-instagram"></i></a>
+			-->
+			<a href="/donate/" class="donate">Donate</a>
+		</div>
+
+	</header>
+
+	<!-- Mobile Header ========================================= -->
+	<header class="mobile hidden-lg-up">
+		<a href="/" class="logo">
+			<img src="/layout/img/logo-lapo-sm.svg" alt="">
+		</a>
+		<div class="menu-toggle"><span></span><span></span><span></span></div>
+		<div class="menu">
+			<img src="/layout/img/logo-lapo.svg" alt="">
+			<ul>
+				<li><a href="/about/">About</a></li>
+				<li><a href="/who-we-are/">Who We Are</a></li>
+				<li><a href="/contact/">Contact</a></li>
+				<li><a href="/resources/">Resources</a></li>
+				<li><a href="/calendar/">Calendar</a></li>
+				<li><a href="//blog.lakeafton.com">Blog</a></li>
+				<li><a href="http://eepurl.com/cdN8hf" class="donate">Donate</a></li>
+			</ul>
+
+
+			<div class="social">
+				<a href="https://twitter.com/lakeafton"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/lakeafton"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/lakeafton"><i class="fa fa-instagram"></i></a>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- Content Area ========================================= -->
+	<div class="main">
+
+
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDeefIJYspYQXSULfbivbzD26XCiOfIlYc&extension=.js'></script>
+
+<script>
+	google.maps.event.addDomListener(window, 'load', init);
+	var map;
+
+	function init() {
+		var mapOptions = {
+			center: new google.maps.LatLng(37.6221582, -97.6269578),
+			zoom: 15,
+			zoomControl: false,
+			disableDoubleClickZoom: false,
+			mapTypeControl: false,
+			scaleControl: false,
+			scrollwheel: false,
+			panControl: false,
+			streetViewControl: false,
+			draggable: true,
+			overviewMapControl: false,
+			overviewMapControlOptions: {
+				opened: false,
+			},
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			styles: [{
+				"featureType": "water",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#e9e9e9"
+				}, {
+					"lightness": 17
+				}]
+			}, {
+				"featureType": "landscape",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#f5f5f5"
+				}, {
+					"lightness": 20
+				}]
+			}, {
+				"featureType": "road.highway",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 17
+				}]
+			}, {
+				"featureType": "road.highway",
+				"elementType": "geometry.stroke",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 29
+				}, {
+					"weight": 0.2
+				}]
+			}, {
+				"featureType": "road.arterial",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 18
+				}]
+			}, {
+				"featureType": "road.local",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 16
+				}]
+			}, {
+				"featureType": "poi",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#f5f5f5"
+				}, {
+					"lightness": 21
+				}]
+			}, {
+				"featureType": "poi.park",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#dedede"
+				}, {
+					"lightness": 21
+				}]
+			}, {
+				"elementType": "labels.text.stroke",
+				"stylers": [{
+					"visibility": "on"
+				}, {
+					"color": "#ffffff"
+				}, {
+					"lightness": 16
+				}]
+			}, {
+				"elementType": "labels.text.fill",
+				"stylers": [{
+					"saturation": 36
+				}, {
+					"color": "#333333"
+				}, {
+					"lightness": 40
+				}]
+			}, {
+				"elementType": "labels.icon",
+				"stylers": [{
+					"visibility": "off"
+				}]
+			}, {
+				"featureType": "transit",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#f2f2f2"
+				}, {
+					"lightness": 19
+				}]
+			}, {
+				"featureType": "administrative",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#fefefe"
+				}, {
+					"lightness": 20
+				}]
+			}, {
+				"featureType": "administrative",
+				"elementType": "geometry.stroke",
+				"stylers": [{
+					"color": "#fefefe"
+				}, {
+					"lightness": 17
+				}, {
+					"weight": 1.2
+				}]
+			}],
+		}
+		var mapElement = document.getElementById('map');
+		var map = new google.maps.Map(mapElement, mapOptions);
+		var locations = [
+			['Lake Afton Public Observatory', 'We are a group of people who are passionate about astronomy. Through our telescope, exhibits and events, we aim to foster education and wonder about our solar system and beyond.', '',
+				'marketing@lakeafton.com', 'lakeafton.com', 37.6221582, -97.6269578, '/layout/img/solid-pin-red.png'
+			]
+		];
+		for (i = 0; i < locations.length; i++) {
+			if (locations[i][1] == 'undefined') {
+				description = '';
+			} else {
+				description = locations[i][1];
+			}
+			if (locations[i][2] == 'undefined') {
+				telephone = '';
+			} else {
+				telephone = locations[i][2];
+			}
+			if (locations[i][3] == 'undefined') {
+				email = '';
+			} else {
+				email = locations[i][3];
+			}
+			if (locations[i][4] == 'undefined') {
+				web = '';
+			} else {
+				web = locations[i][4];
+			}
+			if (locations[i][7] == 'undefined') {
+				markericon = '';
+			} else {
+				markericon = locations[i][7];
+			}
+			marker = new google.maps.Marker({
+				icon: markericon,
+				position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+				map: map,
+				title: locations[i][0],
+				desc: description,
+				tel: telephone,
+				email: email,
+				web: web
+			});
+			link = '';
+			bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
+		}
+
+		function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
+			var infoWindowVisible = (function() {
+				var currentlyVisible = false;
+				return function(visible) {
+					if (visible !== undefined) {
+						currentlyVisible = visible;
+					}
+					return currentlyVisible;
+				};
+			}());
+			iw = new google.maps.InfoWindow();
+			google.maps.event.addListener(marker, 'click', function() {
+				if (infoWindowVisible()) {
+					iw.close();
+					infoWindowVisible(false);
+				} else {
+					var html = "<div style='color:#000;background-color:#fff;padding:5px;width:100%;'><h4>" + title + "</h4><p>" + desc + "<p><p>" + telephone + "<p></div>";
+					iw = new google.maps.InfoWindow({
+						content: html
+					});
+					iw.open(map, marker);
+					infoWindowVisible(true);
+				}
+			});
+			google.maps.event.addListener(iw, 'closeclick', function() {
+				infoWindowVisible(false);
+			});
+		}
+	}
+</script>
+
+<div id='map'></div>
+
+<div class="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Contact</h1>
+							<strong>Address</strong><br>
+							<a href="https://www.google.com/maps/place/Lake+Afton+Public+Observatory/@37.6191311,-97.6298515,15z/data=!4m5!3m4!1s0x0:0xc58065545de2e731!8m2!3d37.6221582!4d-97.6269578" target="_blank">25000 W. 39th S.<br>
+							Goddard, KS 67052</a><br>
+							<span class="callcap_phone_number">(316) 559-2899</span>
+							<br><br>
+
+							<strong>Media Inquiries</strong> <br> <a href="mailto:marketing@lakeafton.com">marketing@lakeafton.com</a><br><br>
+
+							<strong>Chairman</strong> <br> <a href="mailto:fgassert@lakeafton.com">fgassert@lakeafton.com</a><br><br>
+
+							<strong>Sponsorship and donations</strong> <br> <a href="mailto:fundraising@lakeafton.com">fundraising@lakeafton.com</a><br><br />
+
+							<i>LAPO is not affiliated with <a href="http://www.sedgwickcounty.org/lake_afton/" target="_new">Lake Afton Park</a></I><br />
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-7">
+				<img style="width: 100%;" src="/layout/img/building.jpg" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Insert Sponsor Module -->
+
+
+		<!-- Footer ========================================= -->
+		<footer>
+
+			<ul class="navigation hidden-sm-down">
+				<li><a href="/about/">About</a></li>
+				<li><a href="/who-we-are/">Who We Are</a></li>
+				<li><a href="/contact/">Contact</a></li>
+			</ul>
+
+			<div class="subscribe">
+				<h1>Stay Updated</h1>
+				<form action="//lakeafton.us11.list-manage.com/subscribe/post?u=3a1cc6210ed1c2d4cd798d122&amp;id=df986815ae" method="post" name="mc-embedded-subscribe-form" target="_blank">
+					<input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email" value="">
+					<input type="submit" class="btn" name="subscribe" value="Subscribe">
+
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3a1cc6210ed1c2d4cd798d122_2f0f0c5a86" tabindex="-1" value=""></div>
+				</form>
+			</div>
+
+			<div class="social">
+				<a href="https://twitter.com/lakeafton"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/lakeafton"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/lakeafton"><i class="fa fa-instagram"></i></a>
+			</div>
+
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Lake Afton Public Observatory
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+	<!-- Page End (main div) ========================================= -->
+
+	<!-- Tracking codes -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-66607923-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<script src="//api.callcap.com/track/webmatch.js" type="text/javascript"></script>
+	<script language="javascript">
+	var webmatch = new Webmatch({ rotate: 'Ed1-997-KTlu', instance_class: 'callcap_phone_number', phone_format: 'paren', phone_link: true, loadUtmParams: true, useUtmTermForSearch: true }).init();
+	</script>
+
+</body>
+</html>
+
